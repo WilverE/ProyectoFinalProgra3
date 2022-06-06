@@ -100,13 +100,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="7552663f68b5eba5b1e88899419a4a01.jpg" />
     <Content Include="About.aspx" />
-    <Content Include="AddCita.aspx" />
-    <Content Include="AddConsulta.aspx" />
-    <Content Include="AddMedicamentos.aspx" />
-    <Content Include="AddSintomas.aspx" />
-    <Content Include="AddUsuarios.aspx" />
+    <Content Include="Cita.aspx" />
+    <Content Include="CONSULTA.aspx" />
+    <Content Include="MEDICAMENTOS.aspx" />
+    <Content Include="SINTOMAS.aspx" />
+    <Content Include="USUARIO.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -114,7 +113,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="DeleteCitas.aspx" />
+    <Content Include="ELIMINAR.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -132,17 +131,17 @@
     <Content Include="Medicamentos.json" />
     <Content Include="Agenda.json" />
     <Content Include="HistorialMedico.json" />
-    <Content Include="PaginaINICIO.aspx" />
-    <Content Include="VerHistorialMedico.aspx" />
+    <Content Include="INICIO.aspx" />
+    <Content Include="HISTORIAL.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
-    <Content Include="ReporteDinero.aspx" />
-    <Content Include="ReporteEnfermedades.aspx" />
-    <Content Include="ReporteListadoMedicamentos.aspx" />
-    <Content Include="ReporteMes.aspx" />
-    <Content Include="ReportMes.aspx" />
-    <Content Include="ReportPacientesNoPresentes.aspx" />
+    <Content Include="REPORTE.aspx" />
+    <Content Include="REPORTEDE.aspx" />
+    <Content Include="LISTADODEMEDICAMENTOS.aspx" />
+    <Content Include="MES.aspx" />
+    <Content Include="REPORTEDEMES.aspx" />
+    <Content Include="NOASISTIDOS.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -182,40 +181,40 @@
     <Content Include="Sintomas.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCita.aspx.cs">
-      <DependentUpon>AddCita.aspx</DependentUpon>
+    <Compile Include="Cita.aspx.cs">
+      <DependentUpon>Cita.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddCita.aspx.designer.cs">
-      <DependentUpon>AddCita.aspx</DependentUpon>
+    <Compile Include="Cita.aspx.designer.cs">
+      <DependentUpon>Cita.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddConsulta.aspx.cs">
-      <DependentUpon>AddConsulta.aspx</DependentUpon>
+    <Compile Include="CONSULTA.aspx.cs">
+      <DependentUpon>CONSULTA.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddConsulta.aspx.designer.cs">
-      <DependentUpon>AddConsulta.aspx</DependentUpon>
+    <Compile Include="CONSULTA.aspx.designer.cs">
+      <DependentUpon>CONSULTA.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddMedicamentos.aspx.cs">
-      <DependentUpon>AddMedicamentos.aspx</DependentUpon>
+    <Compile Include="MEDICAMENTOS.aspx.cs">
+      <DependentUpon>MEDICAMENTOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddMedicamentos.aspx.designer.cs">
-      <DependentUpon>AddMedicamentos.aspx</DependentUpon>
+    <Compile Include="MEDICAMENTOS.aspx.designer.cs">
+      <DependentUpon>MEDICAMENTOS.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddSintomas.aspx.cs">
-      <DependentUpon>AddSintomas.aspx</DependentUpon>
+    <Compile Include="SINTOMAS.aspx.cs">
+      <DependentUpon>SINTOMAS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddSintomas.aspx.designer.cs">
-      <DependentUpon>AddSintomas.aspx</DependentUpon>
+    <Compile Include="SINTOMAS.aspx.designer.cs">
+      <DependentUpon>SINTOMAS.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AddUsuarios.aspx.cs">
-      <DependentUpon>AddUsuarios.aspx</DependentUpon>
+    <Compile Include="USUARIO.aspx.cs">
+      <DependentUpon>USUARIO.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AddUsuarios.aspx.designer.cs">
-      <DependentUpon>AddUsuarios.aspx</DependentUpon>
+    <Compile Include="USUARIO.aspx.designer.cs">
+      <DependentUpon>USUARIO.aspx</DependentUpon>
     </Compile>
     <Compile Include="Agenda.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -241,12 +240,12 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DeleteCitas.aspx.cs">
-      <DependentUpon>DeleteCitas.aspx</DependentUpon>
+    <Compile Include="ELIMINAR.aspx.cs">
+      <DependentUpon>ELIMINAR.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DeleteCitas.aspx.designer.cs">
-      <DependentUpon>DeleteCitas.aspx</DependentUpon>
+    <Compile Include="ELIMINAR.aspx.designer.cs">
+      <DependentUpon>ELIMINAR.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -268,55 +267,55 @@
     </Compile>
     <Compile Include="Medicamentos.cs" />
     <Compile Include="Pacientes.cs" />
-    <Compile Include="PaginaINICIO.aspx.cs">
-      <DependentUpon>PaginaINICIO.aspx</DependentUpon>
+    <Compile Include="INICIO.aspx.cs">
+      <DependentUpon>INICIO.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PaginaINICIO.aspx.designer.cs">
-      <DependentUpon>PaginaINICIO.aspx</DependentUpon>
+    <Compile Include="INICIO.aspx.designer.cs">
+      <DependentUpon>INICIO.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReporteDinero.aspx.cs">
-      <DependentUpon>ReporteDinero.aspx</DependentUpon>
+    <Compile Include="REPORTE.aspx.cs">
+      <DependentUpon>REPORTE.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReporteDinero.aspx.designer.cs">
-      <DependentUpon>ReporteDinero.aspx</DependentUpon>
+    <Compile Include="REPORTE.aspx.designer.cs">
+      <DependentUpon>REPORTE.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ReporteEnfermedades.aspx.cs">
-      <DependentUpon>ReporteEnfermedades.aspx</DependentUpon>
+    <Compile Include="REPORTEDE.aspx.cs">
+      <DependentUpon>REPORTEDE.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReporteEnfermedades.aspx.designer.cs">
-      <DependentUpon>ReporteEnfermedades.aspx</DependentUpon>
+    <Compile Include="REPORTEDE.aspx.designer.cs">
+      <DependentUpon>REPORTEDE.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ReporteListadoMedicamentos.aspx.cs">
-      <DependentUpon>ReporteListadoMedicamentos.aspx</DependentUpon>
+    <Compile Include="LISTADODEMEDICAMENTOS.aspx.cs">
+      <DependentUpon>LISTADODEMEDICAMENTOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReporteListadoMedicamentos.aspx.designer.cs">
-      <DependentUpon>ReporteListadoMedicamentos.aspx</DependentUpon>
+    <Compile Include="LISTADODEMEDICAMENTOS.aspx.designer.cs">
+      <DependentUpon>LISTADODEMEDICAMENTOS.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ReporteMes.aspx.cs">
-      <DependentUpon>ReporteMes.aspx</DependentUpon>
+    <Compile Include="MES.aspx.cs">
+      <DependentUpon>MES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReporteMes.aspx.designer.cs">
-      <DependentUpon>ReporteMes.aspx</DependentUpon>
+    <Compile Include="MES.aspx.designer.cs">
+      <DependentUpon>MES.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ReportMes.aspx.cs">
-      <DependentUpon>ReportMes.aspx</DependentUpon>
+    <Compile Include="REPORTEDEMES.aspx.cs">
+      <DependentUpon>REPORTEDEMES.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReportMes.aspx.designer.cs">
-      <DependentUpon>ReportMes.aspx</DependentUpon>
+    <Compile Include="REPORTEDEMES.aspx.designer.cs">
+      <DependentUpon>REPORTEDEMES.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ReportPacientesNoPresentes.aspx.cs">
-      <DependentUpon>ReportPacientesNoPresentes.aspx</DependentUpon>
+    <Compile Include="NOASISTIDOS.aspx.cs">
+      <DependentUpon>NOASISTIDOS.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ReportPacientesNoPresentes.aspx.designer.cs">
-      <DependentUpon>ReportPacientesNoPresentes.aspx</DependentUpon>
+    <Compile Include="NOASISTIDOS.aspx.designer.cs">
+      <DependentUpon>NOASISTIDOS.aspx</DependentUpon>
     </Compile>
     <Compile Include="Sintomas.cs" />
     <Compile Include="Site.Master.cs">
@@ -355,12 +354,12 @@
       <DependentUpon>UpdateSintomas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Usuarios.cs" />
-    <Compile Include="VerHistorialMedico.aspx.cs">
-      <DependentUpon>VerHistorialMedico.aspx</DependentUpon>
+    <Compile Include="HISTORIAL.aspx.cs">
+      <DependentUpon>HISTORIAL.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="VerHistorialMedico.aspx.designer.cs">
-      <DependentUpon>VerHistorialMedico.aspx</DependentUpon>
+    <Compile Include="HISTORIAL.aspx.designer.cs">
+      <DependentUpon>HISTORIAL.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

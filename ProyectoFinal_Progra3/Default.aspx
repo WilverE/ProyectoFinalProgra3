@@ -23,14 +23,15 @@
         </p>
         <p class="lead">
             Fecha de nacimiento Del Paciente&nbsp;&nbsp;
-            <asp:Calendar ID="Calendar1" runat="server" Width="330px" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="250px" NextPrevFormat="ShortMonth">
-                <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" Height="8pt" />
-                <DayStyle BackColor="#CCCCCC" />
-                <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="White" />
+            <asp:Calendar ID="Calendar1" runat="server" Width="400px" BackColor="White" BorderColor="Black" Font-Names="Times New Roman" Font-Size="10pt" ForeColor="Black" Height="220px" NextPrevFormat="FullMonth" DayNameFormat="Shortest" TitleFormat="Month">
+                <DayHeaderStyle Font-Bold="True" Font-Size="7pt" ForeColor="#333333" Height="10pt" BackColor="#CCCCCC" />
+                <DayStyle Width="14%" />
+                <NextPrevStyle Font-Size="8pt" ForeColor="White" />
                 <OtherMonthDayStyle ForeColor="#999999" />
-                <SelectedDayStyle BackColor="#333399" ForeColor="White" />
-                <TitleStyle BackColor="#333399" BorderStyle="Solid" Font-Bold="True" Font-Size="12pt" ForeColor="White" Height="12pt" />
-                <TodayDayStyle BackColor="#999999" ForeColor="White" />
+                <SelectedDayStyle BackColor="#CC3333" ForeColor="White" />
+                <SelectorStyle BackColor="#CCCCCC" Font-Bold="True" Font-Names="Verdana" Font-Size="8pt" ForeColor="#333333" Width="1%" />
+                <TitleStyle BackColor="Black" Font-Bold="True" Font-Size="13pt" ForeColor="White" Height="14pt" />
+                <TodayDayStyle BackColor="#CCCC99" />
             </asp:Calendar>
         </p>
         <p class="lead">

@@ -1,16 +1,12 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="DeleteCitas.aspx.cs" Inherits="ProyectoFinal_Progra3.DeleteCitas" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ELIMINAR.aspx.cs" Inherits="ProyectoFinal_Progra3.DeleteCitas" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <h1>
+        &nbsp;</h1>
+    <h1>
+        &nbsp;</h1>
     <h1>
     <br />
     </h1>
-    <h1>
-        &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
     <h1>
         &nbsp;Eliminar Cita </h1>
 <p>

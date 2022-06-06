@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddUsuarios.aspx.cs" Inherits="ProyectoFinal_Progra3.AddUsuarios" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="USUARIO.aspx.cs" Inherits="ProyectoFinal_Progra3.AddUsuarios" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>&nbsp;</h1>
 <h1>&nbsp;</h1>

@@ -54,21 +54,21 @@
                         <li><a runat="server" href="~/PaginaInicio">INICIO</a></li>
                         <li><a runat="server" href="~/">Agregar Paciente</a></li>
                          <li><a runat="server" href="~/UpdatePacientes">Editar Paciente</a></li>
-                         <li><a runat="server" href="~/AddSintomas">Agregar Sintoma</a></li> 
+                         <li><a runat="server" href="~/SINTOMAS">Agregar Sintoma</a></li> 
                          <li><a runat="server" href="~/UpdateSintomas">Editar Sintomas</a></li>
-                         <li><a runat="server" href="~/AddMedicamentos">Agregar Medicamento</a></li> 
+                         <li><a runat="server" href="~/MEDICAMENTOS">Agregar Medicamento</a></li> 
                          <li><a runat="server" href="~/UpdateMedicamentos">Editar Medicamento</a></li>
-                         <li><a runat="server" href="~/AddCita">Agregar Cita</a></li> 
-                        <li><a runat="server" href="~/DeleteCitas">Eliminar Citas</a></li>
-                        <li><a runat="server" href="~/AddConsulta">Realizar consulta</a></li>
-                        <li><a runat="server" href="~/VerHistorialMedico">Ver Historial Medico</a></li>
-                        <li><a runat="server" href="~/ReporteDinero">Reporte Dinero entre dos fechas</a></li>
-                        <li><a runat="server" href="~/ReporteListadoMedicamentos">Reporte Medicamentos recetados</a></li>
-                        <li><a runat="server" href="~/ReporteMes">Reporte día del mes con más pacientes</a></li>
-                        <li><a runat="server" href="~/ReporteEnfermedades">Reporte de enfermedades diagnosticadas</a></li>
-                        <li><a runat="server" href="~/ReportMes">Reporte Pacientes entre dos fechas</a></li>
-                        <li><a runat="server" href="~/ReportPacientesNoPresentes">Reporte Pacientes que no asistieron</a></li>
-                        <li><a runat="server" href="~/AddUsuarios">Agregar Usuario</a></li>
+                         <li><a runat="server" href="~/Cita">Agregar Cita</a></li> 
+                        <li><a runat="server" href="~/ELIMINAR">Eliminar Citas</a></li>
+                        <li><a runat="server" href="~/CONSULTA">Realizar consulta</a></li>
+                        <li><a runat="server" href="~/HISTORIAL">Ver Historial Medico</a></li>
+                        <li><a runat="server" href="~/REPORTE">Reporte Dinero entre dos fechas</a></li>
+                        <li><a runat="server" href="~/LISTADODEMEDICAMENTOS">Reporte Medicamentos recetados</a></li>
+                        <li><a runat="server" href="~/MES">Reporte día del mes con más pacientes</a></li>
+                        <li><a runat="server" href="~/REPORTEDE">Reporte de enfermedades diagnosticadas</a></li>
+                        <li><a runat="server" href="~/REPORTEDEMES">Reporte Pacientes entre dos fechas</a></li>
+                        <li><a runat="server" href="~/NOASISTIDOS">Reporte Pacientes que no asistieron</a></li>
+                        <li><a runat="server" href="~/USUARIO">Agregar Usuario</a></li>
                          <li><a runat="server" href="~/Logout">Cerrar Sesion</a></li>
                     </ul>
                 </div>
