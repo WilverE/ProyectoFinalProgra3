@@ -1,0 +1,29 @@
+[
+  {
+    "IdConsulta": 1,
+    
+    "NitPac": "15306895",
+    "Fecha": "2022-06-05T00:00:00",
+    "HoraConsulta": "20:09",
+    "Tempertatura": "37 grados",
+    "Presion": "120 sobre 80",
+    "Sintomas": [ "Mareos", "Fiebre" ],
+    "Diagnostico": "Infeccion Estomacal",
+    "Tratamiento": "Antibioticos",
+    "Receta": [ "Ramipril - Carasel.", "Acido Acetil-Salicílico - Aspirina" ],
+    "Costo": 200
+  },
+  {
+    "IdConsulta": 2,
+    "NitPac": "15306895",
+    "Fecha": "2022-06-07T00:00:00",
+    "HoraConsulta": "10:45",
+    "Tempertatura": "30 Grados",
+    "Presion": "120 sobre 80",
+    "Sintomas": [ "Vista Nublosa", "Dolor de cabeza" ],
+    "Diagnostico": "Migraña",
+    "Tratamiento": "Antibioticos",
+    "Receta": [ "Acido Acetil-Salicílico - Aspirina" ],
+    "Costo": 200
+  }
+]

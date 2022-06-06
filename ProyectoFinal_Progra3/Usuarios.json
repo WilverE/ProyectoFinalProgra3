@@ -1,0 +1,13 @@
+[
+  {
+    "Usuario": "Doctor",
+    
+    "Contraseña": "doctor",
+    "ROL": "Medico"
+  },
+  {
+    "Usuario": "Secre",
+    "Contraseña": "secretaria",
+    "ROL": "Secretaria"
+  }
+]

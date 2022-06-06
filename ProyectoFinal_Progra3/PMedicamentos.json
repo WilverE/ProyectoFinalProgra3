@@ -1,0 +1,21 @@
+[
+  {
+    "CMedicamento": "M1",
+    
+    "Ingrediente": "Simvastatina ",
+    "Laboratorio": "Alcosin",
+    "Enfermedades": [ "Reducir Colesterol", "Reducir Triglicerios", "Disminución de enfermedades cardiovasculares" ]
+  },
+  {
+    "CMedicamento": "M2",
+    "Ingrediente": "Acido Acetil-Salicílico",
+    "Laboratorio": "Aspirina",
+    "Enfermedades": [ "Dolores de pecho", "Dolores de cabeza", "Infartos Miocardios" ]
+  },
+  {
+    "CMedicamento": "M3",
+    "Ingrediente": "Ramipril",
+    "Laboratorio": "Carasel.",
+    "Enfermedades": [ "Presion arterial alta", "Insuficiencia Cardiaca", "Insuficiencia Renal" ]
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "CSintoma": "S1",
+    
+    "Sintoma": "Mareos"
+  },
+  {
+    "CSintoma": "S2",
+    "Sintoma": "Vista Nublosa"
+  },
+  {
+    "CSintoma": "S3",
+    "Sintoma": "Fiebre"
+  },
+  {
+    "CSintoma": "S4",
+    "Sintoma": "Dolor de cabeza"
+  }
+]
