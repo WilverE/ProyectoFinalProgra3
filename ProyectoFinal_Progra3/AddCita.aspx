@@ -13,12 +13,6 @@
     <p>
         &nbsp;</p>
     <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
-        &nbsp;</p>
-    <p>
         <asp:Label ID="Label3" runat="server" Font-Size="XX-Large" Text="Paciente a agendar:"></asp:Label>
 </p>
     <p>

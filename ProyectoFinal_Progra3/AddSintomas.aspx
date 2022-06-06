@@ -3,9 +3,6 @@
     <h1>&nbsp;</h1>
     <h1>&nbsp;</h1>
     <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
     <h1>Ingreso de Sintomas</h1>
     <p class="lead">
         Codigo Sintoma&nbsp;&nbsp; <asp:TextBox ID="TextBox5" runat="server" Height="16px" Width="692px"></asp:TextBox>

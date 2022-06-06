@@ -3,6 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
+        <h1>&nbsp;</h1>
         <h1>Ingreso de Pacientes</h1>
         <p class="lead">
             NIT Del Paciente&nbsp;&nbsp;
@@ -37,6 +38,8 @@
             <asp:TextBox ID="TextBox15" runat="server" Height="16px" Width="262px"></asp:TextBox>
         </p>
         <asp:Button ID="Button3" runat="server" Height="42px" Text="Agregar Paciente" Width="542px" OnClick="Button3_Click1" />
+        <br />
+        <br />
     </div>
 
     </asp:Content>

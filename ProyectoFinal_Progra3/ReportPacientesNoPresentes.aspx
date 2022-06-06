@@ -7,14 +7,6 @@
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Total de pacientes que no se presentaron"></asp:Label>
 <asp:Button ID="Button1" runat="server" Font-Size="X-Large" Height="56px" OnClick="Button1_Click" Text="Visualizar pacientes que no se presentaron" Width="812px" />
 <br />

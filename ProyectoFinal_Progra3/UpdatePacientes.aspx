@@ -5,14 +5,8 @@
         </h1>
     <h1>
         &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
-    <h1>
-        &nbsp;</h1>
+    <p>
+        &nbsp;</p>
     <h1>
         Editor de pacientes</h1>
     <p>

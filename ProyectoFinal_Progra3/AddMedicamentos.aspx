@@ -2,11 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <h1>&nbsp;</h1>
     <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
-    <h1>&nbsp;</h1>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
     <h1>Ingreso de Medicamentos</h1>
     <p class="lead">
             Codigo Del Medicamento&nbsp;&nbsp;

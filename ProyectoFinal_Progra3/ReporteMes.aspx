@@ -1,5 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ReporteMes.aspx.cs" Inherits="ProyectoFinal_Progra3.ReporteMes" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
     <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Día del mes con más pacientes"></asp:Label>
 <br />
 <br />

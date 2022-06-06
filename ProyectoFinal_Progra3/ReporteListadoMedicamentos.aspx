@@ -5,9 +5,7 @@
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
+    <br />
 <br />
 <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" Text="Reporte de medicamentos recetados"></asp:Label>
 <br />
